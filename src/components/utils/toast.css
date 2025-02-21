@@ -1,0 +1,18 @@
+.toast-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.toast-button {
+    background: transparent;
+    border: 1px solid currentColor;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: inherit;
+}
+
+.toast-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+} 
